@@ -1,0 +1,18 @@
+ "Blicket": 
+        {
+            "kind": "group",
+            "frameList": 
+            [
+                 
+                {
+                    "kind": "exp-lookit-video",
+                    "id": "Slide-1",
+                    "video": {
+                        "source": "Slide 1",
+                        "top": 1,
+                        "left": 7,
+                        "width": 86 
+                    }
+                },
+                
+      
