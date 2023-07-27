@@ -1,0 +1,1723 @@
+{
+    "frames": {
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble or would like us to walk you through setup, please email michellewong@fas.harvard.edu"
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
+            "PIName": "Michelle Wong",
+            "institution": "Harvard University",
+            "PIContact": "Michelle Wong at michellewong@fas.harvard.edu",
+            "purpose_header": "Key Information",
+            "purpose": "The following is a short summary of this study to help you decide whether or not you want your child to be a part of this study. More detailed information is listed later on in this form. \n<b>Why is my child being invited to take part in a research study?</b> We invite your child to take part in a research study because they are of a specific age which is relevant to study the developmental construct of interest. \n <b>What should I know about a research study?</b> An experimenter will verbally explain this research study to you and your child. Whether or not you take part is up to you and your child. Your child’s participation is completely voluntary. You and your child can choose not to take part. You and your child can agree to take part and later change your mind. You and your child’s decision will not be held against you. You and your child’s refusal to participate will not result in any consequences or any loss of benefits that you and your child are otherwise entitled to receive. You and your child can ask all the questions you want before you decide. \n<b>Why is this research being done?</b> The purpose of the research is to understand how children are able to learn so much from their interactions with objects, events, and other people. We are currently studying individuals’ learning and development in multiple domains, including causal, visual, language and memory. \n<b>How long will the research last and what will my child need to do?</b> This study will take approximately 15 minutes to complete. During the session, your child may watch a video clip, play a game on the computer, read a book, hear a story, or look at pictures. They may be asked to make judgements, answer questions (such as making predictions and providing explanations), learn from and teach others (including you, their parent), observe events, and perform interactive tasks with objects on the screen while the experimenter observes their behavior. There are no 'right or wrong' responses to any of these questions or tasks—we simply want to find out how children of this age understand and explore objects and situations. We MAY measure where your child is looking through your web camera while your child is participating in these games. Please note that you and your child are NOT being evaluated academically or psychologically, we are simply conducting basic research. \n<b>Is there any way being in this study could be bad for my child?</b> We don’t believe there are any risks for your child from participating in this research. \n<b>Will being in this study help my child in any way?</b> There are no direct benefits to your child from your taking part in this research. We cannot promise any benefits to others from your child taking part in this research. However, possible benefits to others include furthering the field’s understanding of cognitive development.",
+            "additional_segments": [
+                {
+                    "title": "Data removal",
+                    "text": "The person in charge of the research study or the sponsor can remove your child from the research study without your approval. Possible reasons for removal include instances where the participant does not meet the eligibility criteria for the study, which may be determined by their responses to one or more of our questions during the research."
+                },
+                {
+                    "title": "What else do I need to know?",
+                    "text": "This research is being funded by the Templeton Foundation, NSF, the James F. McDonnell Foundation, the Jacobs Foundation, the Mind, Brain, and Behavior initiative at Harvard, and funds awarded to Elizabeth Bonawitz from the Harvard Graduate School of Education."
+                }
+            ],
+            "procedures": "\nYour child will see pictures of different places and objects to play pretend with. We will ask your child to choose which object they would rather play with.",
+            "risk_statement": "We don’t believe there are any risks for your child from participating in this research.",
+            "payment": "After you finish the study, we will email you a $5 Amazon.com (USD) gift card within approximately one week. To be eligible for the gift card, your child must meet all eligibility criteria (e.g., be in the age range for this study), you need to submit a valid consent statement, and we need to see that there is a child with you. Additionally, your child may only participate in this study once in order to be eligible for compensation. \nYour child can leave the research at any time and it will not be held against your child. If you or your child wishes to stop, we will end the session without penalty, and we will still send a gift card. \nThere are no other direct benefits to your child from your taking part in this research, though we hope you will enjoy the experience! Possible benefits to others include furthering the field's understanding of cognitive development.",
+            "datause": "We are primarily interested in the ratings your child provides. A research assistant may also watch your videos to code any spontaneous speech your child generates during the task. \nEfforts will be made to limit the use and disclosure of your child’s Personal Information, including research participation and any information you provide on this form, to people who have a need to review this information. We cannot promise complete secrecy. Organizations that may inspect and copy your child’s information include the IRB and other representatives of this organization. If identifiers are removed from your child’s identifiable private information that is collected during this research, that information could be used for future research studies or distributed to another investigator for future research studies without you or your child’s additional informed consent.",
+            "include_databrary": true,
+            "gdpr": false,
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study.  If you have questions, concerns, or complaints, you can contact our Principal Investigator, Dr. Elizabeth Bonawitz [elizabeth_bonawitz@gse.harvard.edu] or our lab manager Jiayi Wang [jiayiwang@fas.harvard.edu]. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact Harvard's Committee on the Use of Human Subjects (cuhs@harvard.edu)."
+        },
+        "videointro": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "position": "fill",
+                "source": "counterfactualintro"
+            },
+            "backgroundColor": "white",
+            "autoProceed": true,
+            "requireVideoCount": 1,
+            "doRecording": false,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-transitions/",
+            "videoTypes": [
+                "mp4"
+            ]
+        },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Parent's role",
+                    "listblocks": [
+                        {
+                            "text": "Please just wait for your child to answer and say 'Okay!' when they're done sharing - don't give any hints or say whether you agree!"
+                        },
+                        {
+                            "text": "You can always click 'Replay' to repeat the question for them."
+                        },
+                        {
+                            "text": "If your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them."
+                        }
+                    ]
+                },
+                {
+                    "title": "Pausing and stopping",
+                    "listblocks": [
+                        {
+                            "text": "If your child gets fussy or distracted, or you need to attend to something for a moment, you can pause the study by pressing the space key on the keyboard."
+                        },
+                        {
+                            "text": "If you need to end the study early, try closing the window and you should see an ‘exit’ option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your video."
+                        }
+                    ]
+                },
+                {
+                    "title": "Test your audio",
+                    "text": "Please turn the volume up so it's easy to hear but still comfortable.",
+                    "mediaBlock": {
+                        "text": "Make sure you and your child can hear the audio before you begin!",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/ncuneo0711/lookit-stimuli-template/master/mp3/TestAudio.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://raw.githubusercontent.com/ncuneo0711/lookit-stimuli-template/master/ogg/TestAudio.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {
+                    "title": "Camera position",
+                    "listblocks": [
+                        {
+                            "text": "Try to position yourselves so that we can see your child throughout the study."
+                        },
+                        {
+                            "text": "Don’t worry if your child isn’t looking at the screen the entire time! What's important is that the child is in front of the screen the whole time and can make the choices. We made it as short as we could, in the hopes your child won't get bored!"
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Next"
+        },
+        "end": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "loop": false,
+                "position": "fill",
+                "source": "ending"
+            },
+            "backgroundColor": "white",
+            "autoProceed": false,
+            "requireVideoCount": 1,
+            "doRecording": false,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/wongmich/productive-pretense-lookit/master/condition-choose/",
+            "videoTypes": [
+                "mp4"
+            ]
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "title": "Thank you for participating!",
+                "blocks": [
+                    {
+                        "title": "",
+                        "text": "This research wouldn't be possible without awesome parents like you."
+                    },
+                    {
+                        "title": "Some Background Information:",
+                        "text": "Play, including pretend play, is a common part of early childhood. However, researchers are still studying how play behaviors develop, and how play affects children's learning and development. Because play is so variable across individual children, it can be tricky to carefully measure and study how children think and make decisions during play.\nIn this research, we look at which objects children choose to play pretend with. Do children prefer objects that offer more possibilities for imagining with? Or do they prefer objects that they can very quickly imagine as something else, even if they can only think of one idea?\nTo answer these questions, we are running two studies. This current study measures which objects children prefer. Another study measures what ideas children come up with. By combining the data from both studies, we can better understand how children think about pretend possibilities, and how children choose what to play with. We are also interested in how children's pretend play relates to other aspects of their development, such as language."
+                    },
+                    {
+                        "title": "Compensation:",
+                        "text": "To thank you for your participation, we'll be emailing you a $5 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study (If you don't hear from us by then, feel free to reach out!). If you participate again with another child in the age range, you'll receive one gift card per child."
+                    },
+                    {
+                        "title": "Questions or Concerns:",
+                        "text": "Please do not hesitate to contact Michelle Wong at michellewong@fas.harvard.edu"
+                    }
+                ]
+            }
+        },
+        "TrialSequence": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "kind": "choice",
+                    "sampler": "select",
+                    "whichFrames": "BLOCK_ORDER",
+                    "frameOptions": [
+                        {
+                            "kind": "choice",
+                            "sampler": "permute",
+                            "frameOptions": [
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "cfr-thoughtexperiments_race (enhanced)",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": false,
+                                            "doRecording": true,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ],
+                                            "loop": false,
+                                            "requiredDuration": 8,
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "crt-d fantastic (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blank",
+                                                    "position": "fill"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-thoughtexperiments/",
+                                        "autoProceed": true,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "cfr-thoughtexperiments_emilysfather (enhanced)",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": false,
+                                            "doRecording": true,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ],
+                                            "loop": false,
+                                            "requiredDuration": 10,
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "crt-d cool (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blank",
+                                                    "position": "fill"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-thoughtexperiments/",
+                                        "autoProceed": true,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "cfr-thoughtexperiments_apples (enhanced)",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": false,
+                                            "doRecording": true,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ],
+                                            "loop": false,
+                                            "requiredDuration": 6,
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "crt-d greatanswer (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blank",
+                                                    "position": "fill"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-thoughtexperiments/",
+                                        "autoProceed": true,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "cfr-thoughtexperiments_pounds (enhanced)",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": false,
+                                            "doRecording": true,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ],
+                                            "loop": false,
+                                            "requiredDuration": 6,
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "crt-d cool (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blank",
+                                                    "position": "fill"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-thoughtexperiments/",
+                                        "autoProceed": true,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "cfr-thoughtexperiments_cows (enhanced)",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": false,
+                                            "doRecording": true,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ],
+                                            "loop": false,
+                                            "requiredDuration": 3,
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "crt-d greatanswer (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blank",
+                                                    "position": "fill"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-thoughtexperiments/",
+                                        "autoProceed": true,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "choice",
+                            "sampler": "permute",
+                            "frameOptions": [
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "CFRshoesvid",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "CFRshoes-question (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blankshoes",
+                                                    "position": "fill"
+                                                }
+                                            ],
+                                            "choiceRequired": false,
+                                            "autoProceed": true
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "colorchoices",
+                                            "images": [
+                                                {
+                                                    "id": "shoesul",
+                                                    "src": "shoes_upperleft.png",
+                                                    "top": ".5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 1090
+                                                },
+                                                {
+                                                    "id": "shoesur",
+                                                    "src": "shoes_upperright.png",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 3260
+                                                },
+                                                {
+                                                    "id": "shoesll",
+                                                    "src": "shoes_lowerleft.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 2241
+                                                },
+                                                {
+                                                    "id": "shoeslr",
+                                                    "src": "shoes_lowerright.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 4350
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-stories/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "CFRpicnicvid",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "CFRpicnic-question (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blankshoes",
+                                                    "position": "fill"
+                                                }
+                                            ],
+                                            "choiceRequired": false,
+                                            "autoProceed": true
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "colorchoices",
+                                            "images": [
+                                                {
+                                                    "id": "picinicul",
+                                                    "src": "picnic_upperleft.png",
+                                                    "top": "0.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 1090
+                                                },
+                                                {
+                                                    "id": "picnicur",
+                                                    "src": "picnic_upperright.png",
+                                                    "top": "0.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 3260
+                                                },
+                                                {
+                                                    "id": "picnicll",
+                                                    "src": "picnic_lowerleft.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 2241
+                                                },
+                                                {
+                                                    "id": "picniclr",
+                                                    "src": "picnic_lowerright.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 4350
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-stories/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "CFRjuicevid",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "CFRjuice-question (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blankshoes",
+                                                    "position": "fill"
+                                                }
+                                            ],
+                                            "choiceRequired": false,
+                                            "autoProceed": true
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "colorchoices",
+                                            "images": [
+                                                {
+                                                    "id": "juiceul",
+                                                    "src": "juice_upperleft.png",
+                                                    "top": "0.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 1090
+                                                },
+                                                {
+                                                    "id": "juiceur",
+                                                    "src": "juice_upperright.png",
+                                                    "top": "0.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 3260
+                                                },
+                                                {
+                                                    "id": "juicell",
+                                                    "src": "juice_lowerleft.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 2241
+                                                },
+                                                {
+                                                    "id": "juicelr",
+                                                    "src": "juice_lowerright.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 4350
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-stories/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "CFRshelfvid",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "CFRshelf-question (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blankshoes",
+                                                    "position": "fill"
+                                                }
+                                            ],
+                                            "choiceRequired": false,
+                                            "autoProceed": true
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "colorchoices",
+                                            "images": [
+                                                {
+                                                    "id": "shelful",
+                                                    "src": "shelf_upperleft.png",
+                                                    "top": "0.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 1090
+                                                },
+                                                {
+                                                    "id": "shelfur",
+                                                    "src": "shelf_upperright.png",
+                                                    "top": "0.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 3260
+                                                },
+                                                {
+                                                    "id": "shelfll",
+                                                    "src": "shelf_lowerleft.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 2241
+                                                },
+                                                {
+                                                    "id": "shelflr",
+                                                    "src": "shelf_lowerright.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 4350
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-stories/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "CFRboardvid",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "CFRboard-question (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.png",
+                                                    "id": "blankshoes",
+                                                    "position": "fill"
+                                                }
+                                            ],
+                                            "choiceRequired": false,
+                                            "autoProceed": true
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "colorchoices",
+                                            "images": [
+                                                {
+                                                    "id": "boardul",
+                                                    "src": "board_upperleft.png",
+                                                    "top": ".5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 1090
+                                                },
+                                                {
+                                                    "id": "boardur",
+                                                    "src": "board_upperright.png",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 3260
+                                                },
+                                                {
+                                                    "id": "boardll",
+                                                    "src": "board_lowerleft.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 2241
+                                                },
+                                                {
+                                                    "id": "boardlr",
+                                                    "src": "board_lowerright.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 4350
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-stories/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "choice",
+                            "sampler": "permute",
+                            "frameOptions": [
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "soccertask1",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "noblock",
+                                            "images": [
+                                                {
+                                                    "id": "soccer1bg",
+                                                    "src": "task1.png",
+                                                    "position": "fill",
+                                                    "nonChoiceOption": true
+                                                },
+                                                {
+                                                    "id": "1ulyellow",
+                                                    "src": "soccertask1yellow.png",
+                                                    "top": ".5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 9000
+                                                },
+                                                {
+                                                    "id": "1llpurple",
+                                                    "src": "soccertask1purple.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 10500
+                                                },
+                                                {
+                                                    "id": "1urblue",
+                                                    "src": "soccertask1blue.png",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 12000
+                                                },
+                                                {
+                                                    "id": "1lrred",
+                                                    "src": "soccertask1red.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 13500
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-soccerball/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "soccertask2",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "noblock",
+                                            "images": [
+                                                {
+                                                    "id": "soccer2bg",
+                                                    "src": "task2.png",
+                                                    "position": "fill",
+                                                    "nonChoiceOption": true
+                                                },
+                                                {
+                                                    "id": "2ulyellow",
+                                                    "src": "soccertask2yellow.png",
+                                                    "top": ".5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 9000
+                                                },
+                                                {
+                                                    "id": "2llpurple",
+                                                    "src": "soccertask2purple.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 10500
+                                                },
+                                                {
+                                                    "id": "2urblue",
+                                                    "src": "soccertask2blue.png",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 12000
+                                                },
+                                                {
+                                                    "id": "2lrred",
+                                                    "src": "soccertask2red.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 13500
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-soccerball/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "soccertask3",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "noblock",
+                                            "images": [
+                                                {
+                                                    "id": "soccer3bg",
+                                                    "src": "task3.png",
+                                                    "position": "fill",
+                                                    "nonChoiceOption": true
+                                                },
+                                                {
+                                                    "id": "3ulyellow",
+                                                    "src": "soccertask3yellow.png",
+                                                    "top": ".5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 9000
+                                                },
+                                                {
+                                                    "id": "3llpurple",
+                                                    "src": "soccertask3purple.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 10500
+                                                },
+                                                {
+                                                    "id": "3urblue",
+                                                    "src": "soccertask3blue.png",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 12000
+                                                },
+                                                {
+                                                    "id": "3lrred",
+                                                    "src": "soccertask3red.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 13500
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-soccerball/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "soccertask4",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "doRecording": false,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "noblock",
+                                            "images": [
+                                                {
+                                                    "id": "soccer4bg",
+                                                    "src": "task4.png",
+                                                    "position": "fill",
+                                                    "nonChoiceOption": true
+                                                },
+                                                {
+                                                    "id": "4ulyellow",
+                                                    "src": "soccertask4yellow.png",
+                                                    "top": ".5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 9000
+                                                },
+                                                {
+                                                    "id": "4llpurple",
+                                                    "src": "soccertask4purple.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 10500
+                                                },
+                                                {
+                                                    "id": "2urblue",
+                                                    "src": "soccertask4blue.png",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 12000
+                                                },
+                                                {
+                                                    "id": "4lrred",
+                                                    "src": "soccertask4red.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 13500
+                                                }
+                                            ],
+                                            "parentTextBlock": {
+                                                "css": {
+                                                    "font-size": "13pt",
+                                                    "padding": "0.5em"
+                                                },
+                                                "text": "Please just say 'Okay!' when your child answers - don't give any hints or say whether you agree!\nIf your child can click on their own, let them click one of the answer choices, then click the Next button. If they can't click on their own, you can click for them.",
+                                                "title": "For Parents"
+                                            }
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-soccerball/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "choice",
+                            "sampler": "permute",
+                            "frameOptions": [
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "Blicket_sample",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "blicket1all (enhanced)",
+                                            "images": [
+                                                {
+                                                    "src": "blank.jpg",
+                                                    "id": "bg1",
+                                                    "position": "fill",
+                                                    "nonChoiceOption": true
+                                                },
+                                                {
+                                                    "src": "Blicket_option_blue.jpg",
+                                                    "id": "yellow",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 2000
+                                                },
+                                                {
+                                                    "id": "purple",
+                                                    "src": "Blicket_option_red.jpg",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 5000
+                                                },
+                                                {
+                                                    "id": "blue",
+                                                    "src": "Blicket_option_purple.jpg",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 10000
+                                                },
+                                                {
+                                                    "id": "red",
+                                                    "src": "Blicket_option_yellow.jpg",
+                                                    "top": ".5",
+                                                    "left": ".1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 14000
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-blicket1/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                },
+                                {
+                                    "kind": "group",
+                                    "frameList": [
+                                        {
+                                            "kind": "exp-lookit-video",
+                                            "video": {
+                                                "source": "blicket task 2_default",
+                                                "position": "fill"
+                                            },
+                                            "autoProceed": true,
+                                            "videoTypes": [
+                                                "mp4"
+                                            ]
+                                        },
+                                        {
+                                            "kind": "exp-lookit-images-audio",
+                                            "audio": "blicketfullaudio",
+                                            "images": [
+                                                {
+                                                    "src": "blicket2_blank.png",
+                                                    "id": "bg2",
+                                                    "position": "fill",
+                                                    "nonChoiceOption": true
+                                                },
+                                                {
+                                                    "src": "Blicket2_option_yellow.png",
+                                                    "id": "yellow",
+                                                    "top": ".5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 3000
+                                                },
+                                                {
+                                                    "id": "purple",
+                                                    "src": "Blicket2_option_purple.png",
+                                                    "top": "50.5",
+                                                    "left": "0.1",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 6000
+                                                },
+                                                {
+                                                    "id": "blue",
+                                                    "src": "Blicket2_option_blue.png",
+                                                    "top": ".5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 10000
+                                                },
+                                                {
+                                                    "id": "red",
+                                                    "src": "Blicket2_option_red.png",
+                                                    "top": "50.5",
+                                                    "left": "66",
+                                                    "width": "33.3",
+                                                    "displayDelayMs": 13000
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "commonFrameProperties": {
+                                        "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-blicket2/",
+                                        "autoProceed": false,
+                                        "maximizeDisplay": true,
+                                        "pageColor": "white",
+                                        "backgroundColor": "white",
+                                        "doRecording": true,
+                                        "choiceRequired": true,
+                                        "showPreviousButton": false,
+                                        "pauseWhenExitingFullscreen": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "exp-lookit-images-audio",
+                            "audio": "crt-d intro (enhanced)",
+                            "images": [
+                                {
+                                    "id": "blankintro",
+                                    "src": "blank.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-thoughtexperiments/",
+                            "autoProceed": true,
+                            "maximizeDisplay": true,
+                            "pageColor": "white",
+                            "backgroundColor": "white",
+                            "doRecording": false,
+                            "showPreviousButton": false,
+                            "pauseWhenExitingFullscreen": true
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "source": "soccerintro",
+                                "position": "fill"
+                            },
+                            "videoTypes": [
+                                "mp4"
+                            ],
+                            "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-soccerball",
+                            "autoProceed": true,
+                            "doRecording": false,
+                            "backgroundColor": "white",
+                            "pageColor": "white",
+                            "showPreviousButton": false,
+                            "pauseWhenExitingFullScreen": true,
+                            "maximizeDisplay": true
+                        },
+                        {
+                            "kind": "exp-lookit-images-audio",
+                            "audio": "fantastic (enhanced)",
+                            "images": [
+                                {
+                                    "id": "blanktransition",
+                                    "src": "blank.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-transitions/",
+                            "autoProceed": true,
+                            "maximizeDisplay": true,
+                            "pageColor": "white",
+                            "backgroundColor": "white",
+                            "doRecording": false,
+                            "showPreviousButton": false,
+                            "pauseWhenExitingFullscreen": true
+                        },
+                        {
+                            "kind": "exp-lookit-images-audio",
+                            "audio": "letskeepgoing (enhanced)",
+                            "images": [
+                                {
+                                    "id": "blanktransition2",
+                                    "src": "blank.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "baseDir": "https://raw.githubusercontent.com/wongmich/counterfactual-baseline-lookit/master/cfr-transitions/",
+                            "autoProceed": true,
+                            "maximizeDisplay": true,
+                            "pageColor": "white",
+                            "backgroundColor": "white",
+                            "doRecording": false,
+                            "showPreviousButton": false,
+                            "pauseWhenExitingFullscreen": true
+                        }
+                    ]
+                }
+            ],
+            "parameterSets": [
+                {
+                    "BLOCK_ORDER": [
+                        4,
+                        0,
+                        6,
+                        1,
+                        7,
+                        5,
+                        2,
+                        6,
+                        3
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        4,
+                        0,
+                        6,
+                        5,
+                        2,
+                        7,
+                        3,
+                        6,
+                        1
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        4,
+                        0,
+                        6,
+                        3,
+                        7,
+                        5,
+                        2,
+                        6,
+                        1
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        4,
+                        0,
+                        6,
+                        5,
+                        2,
+                        7,
+                        1,
+                        6,
+                        3
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        4,
+                        0,
+                        6,
+                        3,
+                        7,
+                        1,
+                        6,
+                        5,
+                        2
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        4,
+                        0,
+                        6,
+                        1,
+                        7,
+                        3,
+                        6,
+                        5,
+                        2
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        1,
+                        6,
+                        5,
+                        2,
+                        7,
+                        3,
+                        6,
+                        4,
+                        0
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        1,
+                        6,
+                        5,
+                        2,
+                        7,
+                        4,
+                        0,
+                        6,
+                        3
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        1,
+                        6,
+                        3,
+                        7,
+                        5,
+                        2,
+                        6,
+                        4,
+                        0
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        1,
+                        6,
+                        3,
+                        7,
+                        4,
+                        0,
+                        6,
+                        5,
+                        2
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        1,
+                        6,
+                        4,
+                        0,
+                        7,
+                        5,
+                        2,
+                        6,
+                        3
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        1,
+                        6,
+                        4,
+                        0,
+                        7,
+                        3,
+                        6,
+                        5,
+                        2
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        5,
+                        2,
+                        6,
+                        3,
+                        7,
+                        4,
+                        0,
+                        6,
+                        1
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        5,
+                        2,
+                        6,
+                        3,
+                        7,
+                        1,
+                        4,
+                        6,
+                        0
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        5,
+                        2,
+                        6,
+                        4,
+                        0,
+                        7,
+                        1,
+                        6,
+                        3
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        5,
+                        2,
+                        6,
+                        4,
+                        0,
+                        7,
+                        3,
+                        6,
+                        1
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        5,
+                        2,
+                        6,
+                        1,
+                        7,
+                        3,
+                        6,
+                        4,
+                        0
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        5,
+                        2,
+                        6,
+                        1,
+                        7,
+                        4,
+                        0,
+                        6,
+                        3
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        3,
+                        6,
+                        4,
+                        0,
+                        7,
+                        1,
+                        6,
+                        5,
+                        2
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        3,
+                        6,
+                        4,
+                        0,
+                        7,
+                        5,
+                        2,
+                        6,
+                        1
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        3,
+                        6,
+                        1,
+                        7,
+                        5,
+                        2,
+                        6,
+                        4,
+                        0
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        3,
+                        6,
+                        1,
+                        7,
+                        4,
+                        0,
+                        6,
+                        5,
+                        2
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        3,
+                        6,
+                        5,
+                        2,
+                        7,
+                        4,
+                        0,
+                        6,
+                        1
+                    ]
+                },
+                {
+                    "BLOCK_ORDER": [
+                        3,
+                        6,
+                        5,
+                        2,
+                        7,
+                        1,
+                        6,
+                        4,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "sequence": [
+        "video-config",
+        "video-consent",
+        "final-instructions",
+        "videointro",
+        "TrialSequence",
+        "end",
+        "exit-survey"
+    ]
+}
